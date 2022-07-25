@@ -1,0 +1,15 @@
+---
+name: Checks
+on: push  # yamllint disable-line rule:truthy
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Check YAML files
+        uses: ibiqlik/action-yamllint@v3
+        with:
+          config_file: .yamllint.yml
+      - name: Check shell scripts
+        uses: luizm/action-sh-checker@v0.5.0

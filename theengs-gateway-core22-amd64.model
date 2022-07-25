@@ -1,0 +1,52 @@
+type: model
+authority-id: FOc4NCc1eaHpCBTrMrK9CDwodTWIvBvw
+series: 16
+brand-id: FOc4NCc1eaHpCBTrMrK9CDwodTWIvBvw
+model: theengs-gateway-core22-amd64
+architecture: amd64
+base: core22
+grade: signed
+snaps:
+  -
+    default-channel: 22/stable
+    id: UqFziVZDHLSyO3TqSWgNBoAdHbLI4dAH
+    name: pc
+    type: gadget
+  -
+    default-channel: 22/stable
+    id: pYVQrBcKmBa0mZ4CCN7ExT6jH8rY1hza
+    name: pc-kernel
+    type: kernel
+  -
+    default-channel: latest/stable
+    id: amcUKQILKXHHTlmSa7NMdnXSx02dNeeT
+    name: core22
+    type: base
+  -
+    default-channel: latest/stable
+    id: PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4
+    name: snapd
+    type: snapd
+  -
+    default-channel: 22/stable
+    id: JmzJi9kQvHUWddZ32PDJpBRXUpGRxvNS
+    name: bluez
+    type: app
+  -
+    default-channel: latest/stable
+    id: WDvYyYNnf1p9CYuMa9uGYCXB6ZqH1EZp
+    name: theengs-gateway
+    type: app
+timestamp: 2022-07-19T19:27:37+00:00
+sign-key-sha3-384: YVuZC2L8uJxL_KJQphqK_JttPVVddAvi_Is-pAW5Y1E3ptOuVLqSIWQ-n4vAmiYR
+
+AcLBXAQAAQoABgUCYt2BWwAKCRAe/fQ2QDzRCKgTD/wPHDVSp/CbiFgKY26eYH088NUgF8z08+sC
+D5G86F+So91xB6pxEZ5oDYIcHKdNMN2e1abz43lzm4Fvu13w2MdOJP6HYiRRDUqROulqC6YfEh+w
+RuE8sPLGo9IySZL0r7qSp/1u8ubtUGyiqeReuxNfLmjJc021i1x2FAk+CRWlZwUe6kJPCeUV6/I3
+ZrPGvPCKSM9Mj07tMImg9eEce9Pv8wdW/ywyqNMf+19Zop9nDvkMNUcbxdnxjvyRrtSJLqqMKuWu
+uBCP/4nM5LU7ypXagCViQTmK5Px94RDzYfhooX6EPoYAZKmF1avINXWdTAYr90bsYzuGGagi0uUV
+VK+psE+dLarOVDmKuF/5uI5EVabMfdfxpa7XXRgfWOsYEdrhviWfGDhyWGdTmYdiJZr7tfGroXAc
+RN35mWm9NYuTB6f2brCkgcpSI1s3aBvSHhbA1TBd8EXSXJ7i+YRAjXqUnYH2C1xm94QAdiyeYMKK
+x8LkT1e0egpHPyxcsFYnG42VOCgpXPgQQ573rdB2jdwsmj2J2UzavIp6htV6h40kUMr0jCa6cpCE
+WQpA3g3fx0eoFqWnzG5VncAwX6AsbgAQSMHvv0P6A5iZBnAdLcF0AosouAZMhBbisRgOl38nhGbt
+TGWmm1RTLN9LhP2LMst5ps3RM61u6w/c5Mo9h2ZZsQ==

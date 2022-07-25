@@ -1,0 +1,62 @@
+type: model
+authority-id: FOc4NCc1eaHpCBTrMrK9CDwodTWIvBvw
+series: 16
+brand-id: FOc4NCc1eaHpCBTrMrK9CDwodTWIvBvw
+model: theengs-gateway-core22-pi-armhf
+architecture: armhf
+base: core22
+grade: signed
+snaps:
+  -
+    default-channel: 22/stable
+    id: YbGa9O3dAXl88YLI6Y1bGG74pwBxZyKg
+    name: pi
+    type: gadget
+  -
+    default-channel: 22/stable
+    id: jeIuP6tfFrvAdic8DMWqHmoaoukAPNbJ
+    name: pi-kernel
+    type: kernel
+  -
+    default-channel: latest/stable
+    id: amcUKQILKXHHTlmSa7NMdnXSx02dNeeT
+    name: core22
+    type: base
+  -
+    default-channel: latest/stable
+    id: PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4
+    name: snapd
+    type: snapd
+  -
+    default-channel: latest/stable
+    id: CSO04Jhav2yK0uz97cr0ipQRyqg0qQL6
+    name: core18
+    type: base
+  -
+    default-channel: latest/edge
+    id: MllPrJmz2tNjFQk65iIsHajyVeJDam9a
+    name: pi-bluetooth
+    type: app
+  -
+    default-channel: 22/stable
+    id: JmzJi9kQvHUWddZ32PDJpBRXUpGRxvNS
+    name: bluez
+    type: app
+  -
+    default-channel: latest/stable
+    id: WDvYyYNnf1p9CYuMa9uGYCXB6ZqH1EZp
+    name: theengs-gateway
+    type: app
+timestamp: 2022-07-19T19:27:37+00:00
+sign-key-sha3-384: YVuZC2L8uJxL_KJQphqK_JttPVVddAvi_Is-pAW5Y1E3ptOuVLqSIWQ-n4vAmiYR
+
+AcLBXAQAAQoABgUCYt2BaQAKCRAe/fQ2QDzRCFS5EAC+3X2n0ydQkOqE652jiwzdqB+2QlCEvbZY
+XFzsGJGKD5Ix/r/5p0VtQOf6Xts9IOOd60GqEEnHQgnDFLnSpxyKvTsR75P7FY2OlT7VJ61tjaCb
+2MOhcCzLBeAozix0L4ixXuCD+Ro8wuTlqAJMjUas2n6VZikGtn4XkIycJwnEOUSNDF12T7W0X2Bp
+3cgtg+7keULeJwOes5tctSbqlDdeKl/f0vy009sYDUsI72CQCY+Ju3IQUKLU41kEcu/M/XmdsFtz
+4Agb0WQKXl2LzNTRtExj2Wi7tL03TDAWDSk6W+lJbeJWSxQ66txxjYHE8+cblZyE4hQwjmgGLrhE
+JY1RqYf7mV/BW0ShRoXau/oi718DSV1ha82dW9eRA5SDsNdNThZIWo3eoyGNv3vfDxqo5xiRvh3M
+LReLCeCrvWtjUrvpfb0YnImdjR+QG5Qp1TWe2/WCcr452NhrLLau8PeUYe2nhbohR5Jr4BrvRFEZ
+v93ocojVgM0UOSURxkPU98DhWGtt3HrYn/CC84MHWuAtoz42OujjFrnHPNuAolo6WiZbzcinD3k7
+8kKV5qw5G1glRy/uNQ5QL6UkmkpSvgIxd8+z7PFPh2aWtkjoqE+L+MYFD/zGFpIsW7ZVmVvsdfkn
+X2KhzuvinoWL+ICxyt8ZL+N7tMGeWv7B/FKJpWFfUA==
