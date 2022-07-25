@@ -1,7 +1,7 @@
 [![Build status](https://github.com/theengs/gateway-appliance/workflows/Build/badge.svg)](https://github.com/theengs/gateway-appliance/actions)
 [![Check status](https://github.com/theengs/gateway-appliance/workflows/Checks/badge.svg)](https://github.com/theengs/gateway-appliance/actions)
 [![GitHub license](https://img.shields.io/github/license/theengs/gateway-appliance.svg)](https://github.com/theengs/gateway-appliance/blob/development/LICENSE)
-![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/theengs/gateway-appliance?label=Theengs%20Gateway)
+[![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/theengs/gateway-appliance?label=Theengs%20Gateway)](https://github.com/theengs/gateway-appliance/releases)
 
 # Theengs Gateway Appliance
 [Ubuntu Core](https://ubuntu.com/core) appliance with [Theengs Gateway](https://github.com/theengs/gateway) pre-installed 
