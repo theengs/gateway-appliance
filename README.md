@@ -1,14 +1,23 @@
 [![Build status](https://github.com/theengs/gateway-appliance/workflows/Build/badge.svg)](https://github.com/theengs/gateway-appliance/actions)
 [![Check status](https://github.com/theengs/gateway-appliance/workflows/Checks/badge.svg)](https://github.com/theengs/gateway-appliance/actions)
 [![GitHub license](https://img.shields.io/github/license/theengs/gateway-appliance.svg)](https://github.com/theengs/gateway-appliance/blob/development/LICENSE)
+![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/theengs/gateway-appliance?label=Theengs%20Gateway)
 
-# Theengs Gateway Appliance 
-
+# Theengs Gateway Appliance
 [Ubuntu Core](https://ubuntu.com/core) appliance with [Theengs Gateway](https://github.com/theengs/gateway) pre-installed 
 
 ## How to install
+Download the .img.xz file from the [latest release](https://github.com/theengs/gateway-appliance/releases) of this repository.
 
-See the instructions for [Installing Ubuntu Core 22 on a Raspberry Pi](https://ubuntu.com/core/docs/install-raspberry-pi), but use the image built from the gateway-appliance repository instead of the default Ubuntu Core 22 image.
+There are three files to choose from:
+
+* theengs-gateway-core22-amd64.img.xz: for Intel NUC
+* theengs-gateway-core22-pi-arm64.img.xz: for Raspberry Pi 3, 4, 400, CM4 and Zero 2 W
+* theengs-gateway-core22-pi-armhf.img.xz: for Raspberry Pi 2, 3, 4, 400, CM4 and Zero 2 W
+
+Note that the Raspberry Pi 2 only supports 32-bits, so you need the armhf image for this model. You also need a separate Bluetooth USB dongle (Bluetooth 4.0 or higher) to be able to use Theengs Gateway, because this model doesn't have a built-in Bluetooth chip.
+
+See the instructions for [Installing Ubuntu Core 22 on a Raspberry Pi](https://ubuntu.com/core/docs/install-raspberry-pi), but use one of the images of this repository instead of the default Ubuntu Core 22 image.
 
 ## How to configure
 
@@ -64,4 +73,11 @@ Theengs Gateway should now run as a service. If you want it to start automatical
 
 ```shell
 snap start --enable theengs-gateway
+```
+
+## How to build new images
+If you want to build the images yourself, you can do this in one command:
+
+```
+./scripts/build-images.sh
 ```
