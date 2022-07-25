@@ -7,5 +7,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+      - name: Install ubuntu-image
+        run: snap install ubuntu-image --classic
       - name: Build images
         run: ./scripts/build-images.sh
