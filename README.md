@@ -19,7 +19,15 @@ Note that the Raspberry Pi 2 only supports 32-bits, so you need the armhf image 
 
 See the instructions for [Installing Ubuntu Core 22 on a Raspberry Pi](https://ubuntu.com/core/docs/install-raspberry-pi), but use one of the images of this repository instead of the default Ubuntu Core 22 image.
 
+After installing the appliance, the operating system and Theengs Gateway should automatically upgrade when a newer release is available.
+
 ## How to configure
+
+First give the snap access to Bluetooth:
+
+```shell
+snap connect theengs-gateway:bluez-client bluez:service
+```
 
 You can show the Theengs Gateway snap's configuration with:
 
@@ -57,19 +65,7 @@ snap set theengs-gateway mqtt.host=MYBROKER mqtt.user=MYUSER mqtt.pass=MYPASS
 
 Have a look at [Theengs Gateway's documentation](https://gateway.theengs.io/use/use.html#details-options) for the meaning of all configuration options.
 
-Then give the snap access to Bluetooth:
-
-```shell
-snap connect theengs-gateway:bluez-client bluez:service
-```
-
-After this, restart the service:
-
-```
-snap restart theengs-gateway
-```
-
-Theengs Gateway should now run as a service. If you want it to start automatically after booting your appliance, enable the service with:
+After changing the configuration, Theengs Gateway should now run as a service. If you want it to start automatically after booting your appliance, enable the service with:
 
 ```shell
 snap start --enable theengs-gateway
