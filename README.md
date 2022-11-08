@@ -21,6 +21,12 @@ See the instructions for [Installing Ubuntu Core 22 on a Raspberry Pi](https://u
 
 After installing the appliance, the operating system and Theengs Gateway should automatically upgrade when a newer release is available.
 
+Make sure to set the correct timezone for the appliance, e.g.:
+
+```shell
+snap set system system.timezone="Europe/Brussels"
+```
+
 ## How to configure
 
 First give the snap access to Bluetooth:
