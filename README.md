@@ -63,7 +63,7 @@ $ snap get -d theengs-gateway
                 "pub-topic": "home/TheengsGateway/BTtoMQTT",
                 "sub-topic": "home/+/BTtoMQTT/undecoded",
                 "user": ""
-        }
+        },
         "time-sync": {
                 "addresses": "",
                 "format": 0
