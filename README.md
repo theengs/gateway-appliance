@@ -64,6 +64,10 @@ $ snap get -d theengs-gateway
                 "sub-topic": "home/+/BTtoMQTT/undecoded",
                 "user": ""
         }
+        "time-sync": {
+                "addresses": "",
+                "format": 0
+        }
 }
 ```
 
