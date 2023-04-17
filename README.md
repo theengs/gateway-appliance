@@ -51,7 +51,7 @@ $ snap get -d theengs-gateway
         "ha": {
                 "discovery": 1,
                 "discovery-device-name": "TheengsGateway",
-                "discovery-filter": "IBEACON GAEN MS-CDP",
+                "discovery-filter": "IBEACON",
                 "discovery-topic": "homeassistant/sensor",
                 "hass-discovery": 1
         },
@@ -61,12 +61,18 @@ $ snap get -d theengs-gateway
                 "pass": "",
                 "port": 1883,
                 "pub-topic": "home/TheengsGateway/BTtoMQTT",
+                "lwt-topic": "home/TheengsGateway/LWT",
                 "sub-topic": "home/+/BTtoMQTT/undecoded",
+                "publish-advdata": 0,
                 "user": ""
         },
         "time-sync": {
                 "addresses": "",
                 "format": 0
+        },
+        "presence": {
+                "topic": "home/TheengsGateway/presence",
+                "enable": 0
         }
 }
 ```
